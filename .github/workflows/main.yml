@@ -2,7 +2,7 @@ name: Periodic Workflow
 
 on:
   schedule:
-    - cron: '35 12 * * *' # Run the workflow every day at 2 AM (UTC)
+    - cron: '36 12 * * *' # Run the workflow every day at 2 AM (UTC)
 
 jobs:
   build:
